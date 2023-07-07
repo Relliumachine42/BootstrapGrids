@@ -67,7 +67,29 @@
     </header>
 
     <!-- content -->
-    <main class="container">
+    <main class="container py-3">
+        <ul class="nav nav-pills mb-1">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="grid3.html">Grid Three</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="grid3b.html">Grid Three B</a>
+            </li>
+        </ul>
+
+        <div class="row row-cols-1 gy-2 minHeight my-3 text-light">
+
+            <div class="col col-md-7 p-1 pb-0">
+                <article class="h-100 bg-secondary p-3">Col Left</article>
+            </div>
+
+            <div class="col col-md-5 p-1 overflow-hidden">
+                <article class="h-50 bg-secondary mb-2 p-3">Col Right</article>
+
+                <article class="h-50 bg-dark p-3">Col Right Bottom</article>
+            </div>
+        </div>
+
 
     </main>
 
